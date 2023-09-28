@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--xmlns="http://www.w3.org/1999/html"-->
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="Profile_CSS.css"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="heady"><!--Head-->
+    <div class="headbut">
+        <a href="News.html">Главная</a>
+    </div>
+    <div class="headbut">
+        <a href="Profile_HTML.html">Профиль</a>
+    </div>
+    <div class="headbut">
+        <a href="sign_inghtml.html">Выход</a>
+    </div>
+    <div class="headbut">
+        <a href="New%20post.html">Создать пост</a>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around">
+    <div class="imageblock"><!--image block-->
+        <div>
+            <img src="image%204.png" class="imge" alt="image">
+        </div>
+        <div>
+            <form id="formElem"><!--
+                <input name="name" class="usname" style="visibility: hidden">
+                <input name="password" class="uspass" style="visibility: hidden">-->
+                Картинка: <input type="file" name="file" accept="image/*" >
+                <button type="submit">
+                <b><i>Сменить аватар</i></b>
+            </button>
+            </form>
+        </div>
+    </div>
+    <div class="nameblock"><!--image block-->
+        <form>
+            <div class="nameinput">
+                <div class="nametext">Псевдоним</div>
+                <label>
+                    <input placeholder="Введите псевдоним" class="labinp"/>
+                </label>
+            </div>
+            <div class="nameinput">
+                <div class="nametext">Имя</div>
+                <label>
+                    <input placeholder="Введите имя" class="labinp"/>
+                </label>
+            </div>
+            <div class="nameinput">
+                <div class="nametext">Фамилия</div>
+                <label>
+                    <input placeholder="Введите фамилию" class="labinp"/>
+                </label>
+            </div>
+            <div class="nameChBut">
+                <button style="margin: 10px">
+                    <b><i>Изменить</i></b>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<div style="display: flex; justify-content: space-around">
+    <div class="postVBlock">
+        <div><b>Постов сделано: 10</b></div>
+        <button>
+            <b><i>Создать пост</i></b>
+        </button>
+    </div>
+    <div class="changeBl">
+        <form>
+            <label>
+                <input placeholder="старый пароль"/>
+            </label>
+            <label>
+                <input placeholder="новый пароль"/>
+            </label>
+            <button>
+                <b><i>Изменить пароль</i></b>
+            </button>
+        </form>
+        <form>
+            <label>
+                <input placeholder="пароль"/>
+            </label>
+            <label>
+                <input placeholder="новый логин"/>
+            </label>
+            <button>
+                <b><i>Изменить логин</i></b>
+            </button>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="fM_div">
+        <div>
+            Главная
+        </div>
+        <div>
+            Профиль
+        </div>
+        <div>
+            Выход
+        </div>
+        <div>
+            Создать пост
+        </div>
+    </div>
+    <div class="fC_div">
+        <div>
+            Разработано Бородич А.А.
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.js" integrity="sha512-RjvSEaeDqPCfUVQ9kna2/2OqHz/7F04IOl1/66LmQjB/lOeAzwq7LrbTzDbz5cJzlPNJ5qteNtHR56XaJSTNWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="profile_event.js"></script>
+</html>

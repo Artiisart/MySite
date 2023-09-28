@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1B1B1B;
+}
+.heady{
+    display: flex;
+    height: 60px;
+    background-color: #383838;
+    color: white;
+
+}
+.headbut{
+    text-decoration: none;
+    font-size: 25px;
+    height: 10px;
+    margin: 10px 10px;
+    color: #aaaaaa;
+}
+
+footer{
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #1E1E1E;
+    color: white;
+}
+.fM_div{
+    display: flex;
+}
+.fM_div div{
+    margin: 7px;
+}
+.fC_div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: end;
+    align-items: end;
+}
+.fC_div div{
+    margin: 5px;
+}
+/*------------------------------------------------profile------------------------------------------------*/
+
+.imageblock{
+    background-color: #2C2C2C;
+    height: 300px;
+    width: 280px;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imge{
+    width: 200px;
+    height: 220px;
+    margin: 5px;
+}
+.imageblock button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.nameblock{
+    background-color: #2C2C2C;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nameinput input{
+    background-color: #555555;
+    border-radius: 20px;
+    width: 200px;
+    height: 15px;
+    margin: 5px 10px;
+    border: solid #555555;
+}
+.nameinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nameinput::placeholder{
+    text-align: center;
+}
+.nametext{
+    font-size: 15px;
+    color: white;
+}
+.nameblock button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px 35px;
+}
+.nameChBut{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.postVBlock{
+    background-color: #2C2C2C;
+    height: 100px;
+    width: 280px;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.postVBlock button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px 35px;
+}
+.changeBl{
+    background-color: #2C2C2C;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.changeBl input{
+    background-color: #555555;
+    border-radius: 20px;
+    width: 200px;
+    height: 15px;
+    margin: 5px 100px;
+    border: solid #555555;
+}
+.changeBl input::placeholder{
+    text-align: center;
+}
+.changeBl button{
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px 105px;
+}
+.changeBl button:hover{
+    outline: none;
+    background-color: #555555;
+}
+
+/*------------------------------------------------New post------------------------------------------------*/
+.nPostBl{
+    background-color: #2C2C2C;
+    height: 500px;
+    width: 90vw;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nPostBl input{
+    background-color: #555555;
+    border-radius: 20px;
+    width: 88vw;
+    height: 15px;
+    margin: 5px 30px;
+    border: solid #555555;
+}
+.pub_button{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+/*------------------------------------------------News------------------------------------------------*/
+.aPost{
+    color: white;
+    background-color: #2C2C2C;
+    height: 500px;
+    width: 90vw;
+    border-radius: 20px;
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.akPost{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.mAva{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.postPic{
+    display: flex;
+    justify-content: center;
+}
